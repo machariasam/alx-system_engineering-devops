@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap1 -d * .* | tr '\n' ',' | sed 's/,$/\n/'
+ls -Ap1 -d * .* | tr '\n' ', ' | sed 's/,$/\n/'
