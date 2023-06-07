@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap1 -d .* * | sort -d -k1.1 -k1.2 | tr '\n' ',' | sed 's/,$/\n/; s/,/,\ /g'
+ls -Ap1 -d .* * | sort -d -k1.1 -k1.2 | tr '\n' ',' | sed 's/,$/\n/'
