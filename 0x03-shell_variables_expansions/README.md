@@ -1,1 +1,1 @@
-# Shell init files, variables, and expansions
+This directory contains shell variables expansions
